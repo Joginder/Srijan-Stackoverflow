@@ -1,8 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css?family=Baloo|Nunito:400,700&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, 'Nunito', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +11,40 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  font-size: 2ch;
+  width: 20vw;
+  margin: 0 auto;
+}
+
+.App-header i {
+  font-style: normal;
+  font-family: 'Baloo', cursive;
+  font-size: 3ch;
+  background: white;
+  color: black;
+  border-radius: 50%;
+  line-height: 1;
+  position: relative;
+  padding: 7px 18px 3px 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.App-header i::after {
+  content: '.';
+  position: absolute;
+  top: 6px;
+  right: 7px;
+}
+
+.App-header i::before {
+  content: '.';
+  position: absolute;
+  top: -8px;
+  right: 7px;
 }
